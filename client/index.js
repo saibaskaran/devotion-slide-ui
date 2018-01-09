@@ -1,4 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {MainPageComponent} from './MainPageComponent.jsx';
 
-ReactDOM.render(<div>This is the seed of devotion</div>, document.getElementById('root'));
+ReactDOM.render(<MainPageComponent/>, document.getElementById('root'));
