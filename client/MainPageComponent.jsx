@@ -1,16 +1,15 @@
 import React from 'react';
+import {ActionBarComponent} from './ActionBarComponent.jsx';
+import {SlideComponent} from './SlideComponent.jsx';
+import {SideBarComponent} from './SideBarComponent.jsx';
 
 export class MainPageComponent extends React.Component {
 	render() {
 		return(
 			<div>
-				<div>Action Bar</div>
-				<div>Search Bar</div>
-				<div>Next Bar</div>
-				<div>Bhajan</div>
-				<div>Meaning</div>
-				<div>Previous</div>
-				<div>Next</div>
+				<ActionBarComponent />
+				<SlideComponent />
+				<SideBarComponent />
 			</div>
 		)
 	}
