@@ -8,7 +8,7 @@ export class MainPageComponent extends React.Component {
 		return(
 			<div>
 				<ActionBarComponent />
-				<SlideComponent />
+				<SlideComponent bhajans={["I am God", "I am Love", "I am Truth"]}/>
 				<SideBarComponent />
 			</div>
 		)

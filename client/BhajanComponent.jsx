@@ -5,9 +5,9 @@ export class BhajanComponent extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1>Title</h1>
-				<EditableTextComponent className="lyrics" />
-				<EditableTextComponent className="meaning" />
+				<h1>{this.props.title}</h1>
+				<EditableTextComponent className="lyrics" text={this.props.lyrics} />
+				<EditableTextComponent className="meaning" text={this.props.meaning} />
 			</div>
 		)
 	}

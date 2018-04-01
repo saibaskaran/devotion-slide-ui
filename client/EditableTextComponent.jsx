@@ -4,7 +4,7 @@ export class EditableTextComponent extends React.Component {
 	render() {
 		return (
 			<div>
-				Lyrics
+				{this.props.text}
 			</div>
 		)
 	}
